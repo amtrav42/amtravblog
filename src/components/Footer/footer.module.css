@@ -1,0 +1,17 @@
+  .footer{
+  max-width: 980px;
+  margin: auto;
+  color: var(--dark-blue);
+  text-align: center;
+}
+
+.footer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer p {
+  border-top: var(--light-border);
+  padding: var(--large-font) 0;
+  margin-bottom: 0;
+}

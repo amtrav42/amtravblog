@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Varta:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+:root {
+  --light-blue: #6CBFF5;
+  --dark-blue: #217EA6;
+  --dark-dark-blue: #004e6a;
+  --orange: #F98E4A;
+  --light: #fffefc;
+  --bright-green: #86EE57;
+  --font-highlights: 'Londrina Sketch', serif;
+  --font-heading: 'Acme', sans-serif;
+  --font-body: 'Varta', sans-serif;
+  font-size: 14px;
+  --small-font: .9rem;
+  --small-medium-font: 1rem;
+  --medium-font: 1.3rem;
+  --medium-large-font: 1.8rem;
+  --large-font: 2rem;
+  --xlarge-font: 2.8rem;
+  --box-shadow: 4px 8px 10px rgba(0, 0, 0, .6);
+  --light-border: 1px solid #DADADA;
+  --border-radius-sml: 4px;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--light);
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
