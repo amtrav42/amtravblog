@@ -3,10 +3,10 @@ import { Link } from "gatsby";
 import HeaderStyles from "./header.module.css";
 
 const Header = ({ isHomepage }) => {
-  const homepageClass = isHomepage ? "homepage-header" : "";
+  const homepageClass = isHomepage ? `${HeaderStyles.homepage}` : "";
   return (
-    <header className={`site-header ${homepageClass}`}>
-      <Link to="/"><div className="logo">Example Site</div></Link>
+    <header className={`${HeaderStyles.header} ${homepageClass}`}>
+      <Link to="/"><div className={HeaderStyles.logo}>Example Site</div></Link>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>

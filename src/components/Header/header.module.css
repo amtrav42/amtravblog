@@ -1,0 +1,37 @@
+.header {
+  height: 30px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.header,
+.header a {
+  color: #484d52;
+  font-weight: 700;
+}
+.header nav a:hover {
+  color: #72767B;
+  transition: var(--transition);
+}
+.homepage.header,
+.homepage.header a {
+  color: var(--light);
+}
+.homepage.header nav a:hover {
+  color: var(--light-blue);
+}
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 900;
+}
+.header nav {
+  display: flex;
+}
+.header nav ul {
+  margin: 0;
+}
+.header nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
