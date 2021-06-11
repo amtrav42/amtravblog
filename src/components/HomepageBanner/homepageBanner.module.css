@@ -1,0 +1,38 @@
+.banner {
+  margin: -70px 0 80px;
+  padding: 10em 0 8em;
+  background-position: center center;
+  background-size: cover;
+  color: var(--light);
+  line-height: 1.75;
+  text-align: center;
+}
+.content {
+  text-align: center;
+  max-width: 980px;
+  margin: auto;
+}
+.title, .description {
+  width: 90%;
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  color: var(--light);
+  font-size: 70px;
+  font-weight: var(--bold);
+  line-height: 70px;
+}
+.button {
+  background: var(--light);
+  border-radius: var(--border-radius-lg);
+  color: var(--dark-dark-blue);
+  font-weight: var(--bold);
+  padding: 15px 40px;
+}
+.button:hover {
+  background: var(--dark-blue);
+  color: var(--light);
+  transition: var(--transition);
+}

@@ -22,7 +22,10 @@
   --box-shadow: 4px 8px 10px rgba(0, 0, 0, .6);
   --light-border: 1px solid #DADADA;
   --border-radius-sml: 4px;
+  --border-radius-lg: 8px;
   box-sizing: border-box;
+  --transition: 0.3s;
+  --bold: 700;
 }
 
 body {

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import HeaderStyles from "./header.module.css";
 
 const Header = ({ isHomepage }) => {
   const homepageClass = isHomepage ? "homepage-header" : "";
